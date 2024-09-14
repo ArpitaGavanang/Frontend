@@ -1,0 +1,32 @@
+.nav-link:hover, 
+.nav-dropdown-item:hover {
+  background: #FF9321;
+  border-radius: 60px;
+  color: #f5f4f4; 
+  text-decoration: rgb(252, 251, 251);
+}
+
+/* .nav-dropdown-item:hover{
+  background: #FF9321;
+  border-radius: 60px;
+  color: #0b0b0b; 
+  text-decoration: black;
+} */
+
+.bg-dark .dropdown-item {
+  color: #ffffff !important;
+  background-color: black;
+}
+
+.bg-dark .dropdown-item:hover {
+  background-color: #FF9321; /* A lighter shade on hover */
+  color: #ffffff !important;
+}
+
+.registration-dropdown .dropdown-toggle {
+  color: white !important; /* Makes the title text white */
+}
+
+.login-dropdown .dropdown-toggle {
+  color: white !important; /* This will make the dropdown title text white */
+}
