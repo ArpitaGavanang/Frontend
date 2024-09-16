@@ -22,17 +22,17 @@ const NavLinks = () => {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className="text-underline" as={NavLink} exact to="/" style={{ color: '#ffffff' }}>
+      <Nav.Link className="text-underline mr-4" as={NavLink} exact to="/" style={{ color: '#ffffff' }} >
         Home
       </Nav.Link>
-      <Nav.Link className="text-underline" as={NavLink} to="/about" style={{ color: '#ffffff' }}>
+      <Nav.Link className="text-underline mr-4" as={NavLink} to="/about" style={{ color: '#ffffff' }}>
         About
       </Nav.Link>
-      <Nav.Link className="text-underline" as={NavLink} to="/service" style={{ color: '#ffffff' }}>
+      <Nav.Link className="text-underline mr-4" as={NavLink} to="/service" style={{ color: '#ffffff' }}>
         Services
       </Nav.Link>
       {token && (
-        <Nav.Link className="text-underline" as={NavLink} to="/admin-dashBoard" style={{ color: '#ffffff' }}>
+        <Nav.Link className="text-underline mr-4" as={NavLink} to="/admin-dashBoard" style={{ color: '#ffffff' }}>
           Admin Dashboard
         </Nav.Link>
       )}
